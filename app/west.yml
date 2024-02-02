@@ -11,6 +11,8 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: babblesim
       url-base: https://github.com/BabbleSim
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   group-filter: [-babblesim]
   projects:
     - name: zephyr
@@ -121,5 +123,8 @@ manifest:
       revision: eed6d7038e839153e340bd333bc43541cb90ba64
       groups:
         - babblesim
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
   self:
     west-commands: scripts/west-commands.yml
